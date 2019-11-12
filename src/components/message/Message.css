@@ -1,0 +1,154 @@
+.message-center-box.ui.divided.list>.item{
+    border-color:#eee;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    display: flex;
+    align-items: center;
+}
+.message-center-box.ui.divided.list>.item:first-child{
+    padding-top: 0;
+}
+.message-center-box.ui.divided.list>.item .content:not(.dropdown-content){
+    width: 100%;
+    margin-left: -41px;
+    padding-left: 56px;
+    margin-right: -20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.message-center-box.ui.divided.list>.item .content.dropdown-content{
+    width: 20px;
+    display: inline-block;
+    vertical-align: top !important;
+}
+.message-center-box.ui.divided.list>.item .content .t600.l-h-20{
+    color: #949799;
+}
+.message-center-box.ui.divided.list>.item .content .t600.l-h-20.bold{
+    color: #000;
+    font-weight: 800;
+}
+.message-center-box.ui.divided.list>.item .description .color-lightest-grey{
+    font-size: 11.5px;
+}
+.conversation-box.ui.modal> .ui.header{
+    color: #6c777d;
+    border-radius: 0;
+}
+.conversation-box.ui.modal> .ui.header .close{
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    opacity: .2;
+    filter: alpha(opacity=20);
+    margin-right: 0;
+    cursor: pointer;
+}
+.conversation-box.ui.modal>.content{
+    border-radius: 0;
+    padding: 15px;
+}
+.conversation ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    max-height: 332px;
+    overflow: auto;
+    width: 100%;
+    display: block;
+}
+.conversation li{
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.conversation li .thread-pic{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 40px;
+    min-height:40px;
+    background-color: #ccc;
+    border-radius:100px;
+}
+.conversation li .thread-pic .ui.avatar.image.avatar-40{
+    margin:0;
+}
+.conversation li .thread-body{
+    display: inline-block;
+    vertical-align: top;    
+    position: relative;
+    font-size: 12px;
+    width: 100%;
+    margin-left: -40px;
+    padding-left: 52px;
+}
+.conversation li .thread-body .thread-text{
+    background: #f7fafc;
+    padding: 15px;    
+    max-width: 90%;
+    max-width: calc(100% - 52px);
+    display: inline-block;
+}
+.conversation li .thread-text .thread-name{
+    color: #1a2942;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+.conversation li .thread-text p{
+    margin: 0;
+    padding-top: 3px;
+    line-height: 1.6;
+}
+.conversation li .thread-text b{
+    font-size: 10px;
+    opacity: .8;
+    font-weight: 600;
+}
+.conversation li.thread-out .thread-body{
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: -40px;
+    padding-right: 52px;
+}
+.conversation li.thread-out{
+    text-align: right;
+}
+.conversation li.thread-out .thread-body .thread-text{
+    background: #00adee;
+    color: #fff;    
+    float: right;
+    clear: both;
+}
+.conversation li.thread-out .thread-text .thread-name{
+    color: #fff;
+}
+.chat-input-wrap {
+    margin-top: 1rem;
+}
+.chat-input-wrap .chat-input{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin-right: -122px;
+    padding-right: 133px;
+}
+.chat-input-wrap .chat-input textarea{
+    resize: none;
+}
+.chat-input-wrap .chat-control{
+    display: inline-block;
+    vertical-align: middle;
+}
+.chat-input-wrap .chat-control i.icon{
+    margin-right:8px;
+    font-size: 16px;
+}
+.chat-input-wrap .chat-control i.icon:hover{
+    color: #00adee;
+}
+.chat-input-wrap .chat-control .button{
+    margin-right: 0;
+}

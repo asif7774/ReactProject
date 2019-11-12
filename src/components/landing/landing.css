@@ -1,0 +1,364 @@
+.margin-top-150{
+    margin-top: 80px ;
+}
+.ui.header.landing-header-text{
+    margin: 30px 0 30px;
+    font-size: 24px ;
+    color: #6c777d ;
+    margin: 0 0 30px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+}
+.radTekText{
+    margin: 6px 0 70px;
+    font-size: 15px;
+    color: #6c777d;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    transform: translateX(-11px);
+}
+div.search > div {
+    /* display: flex !important; */
+    width: 100% !important;
+}
+
+.ui.grid>.column.landing-content-area{
+    width: 100%;
+    padding: 2rem 180px 0;
+}
+.ui.grid>.column.landing-content-area > img{
+    margin-top: 30px
+}
+.ui.grid>.column.landing-content-area img + .landing-header-text{
+    margin-top: 70px
+ }
+.dark-input .ui.icon.input input{
+    border-color:#999;
+}
+.landingSearchBarWrapper{
+    position: relative;
+}
+.dark-input.landingSearchBar .ui.icon.input input{
+    padding-left: 140px;
+}
+.landingSearchBarWrapper .ui.selection.dropdown{
+    border: none;
+    width: 70px !important;
+    min-width: 120px;
+    background: none !important;
+    position: absolute;
+    top: 1px;
+    min-height: 36px;
+    left: 1px;
+    box-shadow: none !important;
+    border-right: 1px solid #999;
+}
+.landingSearchBarWrapper .ui.selection.active.dropdown .menu{
+    margin-top: .5em;
+    border-radius: .28571429rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+    border: 1px solid #d4d4d5 !important;
+}
+.landingSearchBarWrapper .ui.dropdown .menu .active.item{
+    /* padding: 3px 1.14285714rem!important */
+}
+.landingSearchBarWrapper .ui.selection.dropdown > .text{
+    background: none;
+    line-height: 36px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+.landingSearchBarWrapper .ui.selection.active.dropdown:hover{
+    border-right: 1px solid #999;
+}
+.dark-input .ui.input input:focus, .dark-input .ui.input.focus input{
+    border-color:#1a1642; 
+}
+.signin-text{
+    color: #6c777d ;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto 5px;
+    font-weight: 100 ;
+    letter-spacing: -0.1px;
+}
+.landing-page-wrap{
+    /* background: url('../landing/map-dots-500.png') no-repeat; */
+    /*background-size: cover;*/
+    background-position: center -15px;
+    padding: 10px 0 0;
+}
+.landing-page-featured{
+    /*margin-top: 25px;
+    margin-bottom: 25px;*/
+}
+.landing-page-featured .ui.statistic>.label{
+    color: #6c777d;
+    text-transform: none;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    font-size: 14px !important;
+}
+.landing-page-featured .ui.statistic>.value{
+    text-transform: none;
+    font-size: 16px !important;
+    margin: 0 0 15px 0;
+}
+.landing-page-featured .ui.statistic>.value a{
+    display: inline-block;
+    margin-bottom:10px;
+}
+.ui.basic.button.white-outline-btn{
+    color:#fff !important;
+    box-shadow: 0 0 0 1px #fff inset;
+}
+.ui.basic.button.white-outline-btn:hover{
+    background-color: #fff !important; 
+    color: #404041 !important;
+    opacity: 1;
+}
+
+.feature-life-cycle-wrapper .heading{
+    color: #6c777d;
+    text-transform: none;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    line-height: 1;
+    font-size: 20px !important;
+}
+.loginBar{
+    /* position: absolute;
+    bottom: 80px;
+    left:0; */
+    padding-top: 10px;
+    right:0;
+    background: #fff;
+}
+.login-strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-strip .or{
+    margin: 0 30px
+}
+.login-strip{
+    display: flex;
+}
+.other-page-login-bar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,.1);
+}
+.other-page-login-bar .loginBar{
+    position: relative;
+    padding-bottom: 5px;
+}
+.login-alt-option{
+    margin-top: 15px;
+    text-align: center;
+}
+.landing-option-btn.ui.button{
+    position: fixed;
+    left: 0;
+    top: 90px;
+    z-index: 100;
+    border-radius: 0 25px 25px 0;
+}
+body .ui.basic.modal.landing-option-modal,
+body .modals.dimmer .ui.scrolling.modal.landing-option-modal {
+    width: 120px;
+    display: block !important;
+    margin: 0 !important;
+    position: static !important;
+    height: auto;
+    align-self: top;
+}
+body .ui.basic.modal.landing-option-modal,
+.modal .landing-option {
+    width: 120px;
+    margin-top: 80px;
+}
+body .ui.basic.modal.login-modal{
+
+}
+.modal .landing-option {
+    width: 120px;
+    margin-top: 50%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal .landing-option .ui.button{
+    border-radius: 0 .28571429rem .28571429rem 0;
+    margin-right: 0;
+    max-width: 100px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 5px 10px;
+    letter-spacing: .2px;
+}
+.modal .landing-option .ui.button +  .ui.button {
+    margin-top: 20px
+}
+.feature-cycle-wrapper{
+    display: block;
+    width: 100%;
+    
+    max-width: 768px;
+    margin: 0px auto;
+    position: relative;
+}
+.feature-cycle-wrapper ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-cycle-wrapper ul li{
+    display: inline-block;
+    margin: 10px 5px;
+    width: 80px;
+}
+.feature-cycle-wrapper ul li.clickable a{
+    display: block;
+    margin: 10px 5px;
+    width: 100px;
+    text-align: center;
+}
+.feature-cycle-wrapper ul li.clickable a span:first-child{
+    border-radius: 100%;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+    margin: auto;
+}
+.feature-cycle-wrapper ul li.clickable a span:last-child{
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 5px;
+    display: block;
+    color: #666;
+    white-space: nowrap;
+}
+.feature-cycle-wrapper ul li.clickable a:hover span:last-child{
+    color: #00adee;
+}
+.feature-cycle-wrapper ul li.clickable a span:first-child img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    min-height: 100%;
+    width: 100%;
+}
+.feature-cycle-wrapper ul li.clickable a{
+    display: block;
+    text-align: center;
+}
+.feature-cycle-wrapper ul li.clickable1 a span:first-child{
+    border-radius: 100%;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.feature-cycle-wrapper ul li.clickable1 a span:last-child{
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 5px;
+    display: block;
+    left: 50%;
+    color: #666;
+    white-space: nowrap;
+}
+.feature-cycle-wrapper ul li.clickable1 a:hover span:last-child{
+    color: #00adee;
+}
+.feature-cycle-wrapper ul li.clickable1 a span:first-child img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    min-height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px){
+    .ui.grid>.column.landing-content-area{
+        padding: 1rem 100px 0;
+    }
+    .landing-page-wrap{
+        padding: 0px 0 5px;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .ui.grid>.column.landing-content-area{
+        max-width: 100%;
+        padding: 2rem 0 0;
+        width:100%;
+    }
+    .radTekText {
+        margin: 16px 0 25px;
+    }
+    .landing-page-wrap{
+        background-size: 430px auto;
+    }
+    .ui.header.landing-header-text{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .landing-page-featured .ui.padded.divided.grid:not(.vertically):not(.horizontally){
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .login-strip {
+        flex-direction: column;
+    }
+    .login-strip .or{
+        margin: 10px 0;
+    }
+    .signinBtn.ui.primary.button{
+        margin: 20px 0 0; 
+    }
+    .loginBar{
+        display: none;
+    }
+    .feature-cycle-wrapper ul {
+        justify-content: center;
+    }
+    .feature-cycle-wrapper ul li{
+        width: 101px;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .ui.header.landing-header-text{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+}

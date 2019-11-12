@@ -1,0 +1,58 @@
+{
+    "articles": [
+        {
+            "id":1,
+            "type":"article",
+            "companyName": "Sterlite Technologies Ltd.",
+            "followers": 2578,
+            "days": 1,
+            "title": "Golden Peacock Award",
+            "imageContent": "Sterlite Tech has been honoured with the Golden Peacock Award for Excellence in Corporate Governance - 2017.  Sterlite Tech was selected by the Awards Jury under the Chairmanship of Justice (Dr.) Arijit Pasayat, former Judge, Supreme Court of India. The award will be presented during Golden Peaco ... ",
+            "imageUrl": "http://swinng.com/Demo/mappes/images/article-image-2.jpg"
+
+        },
+        {
+            "id":2,
+            "type":"article",
+            "companyName": "Sterlite Technologies Ltd.",
+            "followers": 3000,
+            "days": 2,
+            "title": "",
+            "content": "Sterlite Tech has been honoured with the Golden Peacock Award for Excellence in Corporate Governance - 2017.  Sterlite Tech was selected by the Awards Jury under the Chairmanship of Justice (Dr.) Arijit Pasayat, former Judge, Supreme Court of India. The award will be presented during Golden Peaco ... ",
+            "imageUrl": "http://swinng.com/Demo/mappes/images/article-image-1.jpg"
+        },
+        {
+            "id":"3",
+            "type":"video",
+            "companyName": "Sterlite Technologies Ltd.",
+            "followers": 2578,
+            "days": 1,
+            "title": "",
+            "imageContent": "",
+            "videoUrl": "https://youtu.be/_ixXL9VQu7c"
+        }
+    ],
+    "comments": [
+        {
+            "avatarUrl": "https://react.semantic-ui.com/images/avatar/small/matt.jpg",
+            "author": "Matt",
+            "message": "Sterlite Tech has been honoured with the Golden Peacock Award for Excellence in Corporate Governance - 2017. Sterlite Tech was selected by the Awards Jury under the Chairmanship of Justice (Dr.) Arijit Pasayat, former Judge, Supreme Court of India. The award will be presented during Golden Peac",
+            "timeStamp": "Today at 5:42PM",
+            "replies": [
+                {
+                    "avatarUrl": "https://react.semantic-ui.com/images/avatar/small/jenny.jpg",
+                    "author": "Elliot Fu",
+                    "message": "This has been very useful for my research. Thanks as well!",
+                    "timeStamp": "Today at 5:42PM"
+                }
+            ]
+        },
+        {
+            "avatarUrl": "https://react.semantic-ui.com/images/avatar/small/joe.jpg",
+            "author": "Joe Henderson",
+            "message": "Dude, this is awesome. Thanks so much",
+            "timeStamp": "5 days ago",
+            "replies": []
+        }
+    ]
+}

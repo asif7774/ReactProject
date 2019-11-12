@@ -1,0 +1,16 @@
+.ui.comments .comment .author{
+    font-weight: 600;
+    white-space: nowrap;
+    color: #00adee;
+    padding-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.ui.comments .comment .text{
+    color: #808184;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    white-space: normal;
+    padding-left: 10px;
+    vertical-align: top;
+}

@@ -1,0 +1,84 @@
+.info-state-text{
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 58px;
+}
+.product-name{
+    font-size: 19px !important;
+    font-weight: 300 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info-icon-holder{
+  vertical-align: middle;
+  display: inline-block;
+}
+.info-icon-text{
+  font-size: 14px;
+  text-align:left;
+  vertical-align: middle;
+  line-height: 14px;
+  display: inline-block;
+}
+.stats-border{
+    border-right: 1px solid rgba(120, 130, 140, .13) ;
+}
+
+.dark-grey{
+    background-color: rgba(241, 241, 242, 0.5) !important;
+}
+
+.ui.basic.striped.table tbody tr:nth-child(2n) {
+    background-color: #f7fafc!important;
+}
+.ui.header, .ui.statistic>.label, .ui.statistics .statistic>.label,
+.ui.statistic>.value, .ui.statistics .statistic>.value{
+    font-family: 'Assistant', sans-serif !important;
+  }
+
+.ui.divider:not(.section){
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.ui.section.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tableDivider.ui.divider:not(.vertical):not(.horizontal) {
+    border-top: 3px solid rgba(34,36,38,.15) !important;
+    border-bottom: 1px solid rgba(255,255,255,.1) !important;
+}
+
+td > a{
+    color: #797979;
+}
+.dropdown.icon{
+    display: none !important;
+}
+
+.pageRow{
+    padding-top: 0px !important;
+    margin-top: -5px !important;
+}
+.dropDownThreeDots{
+    font-size: 12px !important;
+    color: #979499 !important;
+}
+.ui.grid>.column:not(.row).state-block {
+    padding-top: 0;
+    padding-bottom: 3px;
+    margin-top:10px;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 991px){ 
+  .ui.grid>.column:not(.row).state-block {
+    margin-top:0;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom:0;
+  }
+  .info-icon-text{
+    text-align:center;
+  }
+}
